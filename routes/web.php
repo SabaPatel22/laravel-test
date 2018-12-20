@@ -21,3 +21,7 @@ Route::get('/', function(){
 Route::get('/boostrap', function(){
     return view('boostrap');
 });
+
+Route::get('/SABA', function(){
+    return view('SABA');
+});
