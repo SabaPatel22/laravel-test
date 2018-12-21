@@ -157,7 +157,24 @@ var evt = new Event(),
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
                   </div>
                 </div>
-               
+                <div class="styled-select">
+                    <select name = "dropdown">
+                           <option value = "Data Structures" selected >Electric Pump Size</option>
+                           <option value = "Data Mining">Size1</option>
+                     <option value = "Data Mining">Size2</option>
+                        </select>
+                     <div class="col-sm-4">
+                     <select name = "dropdown">
+                           <option value = "Data Structures" selected>Electric Pump Systems</option>
+                           <option value = "Data Mining">Electric Pump Systems1</option>
+                     <option value = "Data Mining">Electric Pump Systems2</option>
+                        </select>
+                    </div>
+                    </div>
+                     <div class="quantity-input">
+                     <input type="number" value="1"name="quantity" min="1" max="99"><br>
+                     </div>
+                   </div>
         </div>
     </div>
     
@@ -220,20 +237,26 @@ var evt = new Event(),
       <p><span class="glyphicon glyphicon-envelope"></span> <a href="https://accounts.google.com" target="_blank">www.gmail.com</a></p>
     </div>
     <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+       <div class="col-sm-6 form-group">
+            <input class="form-control" id="mobile" name="mobile" placeholder="Mobile" type="mobile" required>
+          </div>
+       <div class="col-sm-6 form-group">
+            <input class="form-control" id="address" name="address" placeholder="Address" type="addres" required>
+          </div>
         </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-danger mb-2" type="submit">Submit</button>
+          </div>
         </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-danger" type="submit">Send</button>
-        </div>
-      </div>
     </div>
   </div>
   <h2 class="text-center">Our Location</h2>

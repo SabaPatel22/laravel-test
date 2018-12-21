@@ -140,7 +140,7 @@
       font-size: 150px;
     }
   }
-  * {box-sizing: border-box;}
+  
 
 .img-zoom-container {
   position: relative;
@@ -164,3 +164,21 @@
     padding: 10px 39px;
    
 }
+.styled-select select {
+    background: black;
+    border: none;
+    font-size: 14px;
+    height: 38px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 184px;
+ }
+ .quantity-input input{
+         height: 38px;
+     margin-top: 9px;
+ margin-right: 1px;
+ margin-bottom: 9px;
+ margin-left: 13px;
+      padding: 5px; /* If you add too much padding here, the options won't show in IE */
+      width: 180px;
+ }
+ 
